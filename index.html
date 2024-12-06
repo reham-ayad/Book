@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class=" back1 ">
+        <div class="container  contant pb-3">
+            <h1 class="text-center">Boookmark</h1>
+            <h2 class="text-center" ><i class="fa-solid fa-bookmark"></i></h2>
+            <div class="mb-3">
+                <label for="sitename"  class="form-label"> <i class="fa-duotone fa-solid fa-book-bookmark"></i> Site Name</label>
+                <input type="email" class="form-control" id="sitename" placeholder="Book Mark Name">
+              </div>
+              <div class="mb-5">
+                <label for="Site URL" class="form-label"> <i class="fa-solid fa-link"></i> Site URL</label>
+                <input type="email" class="form-control" id="siteurl" placeholder="Web site url">
+              </div>
+                   <div class="bu position-relative m-auto pb-5"> <button onclick="add()" class="border-0 position-absolute start-50 translate-middle-x rounded pt-2 pb-2 ps-5 border-top-0  pe-5 text-center back2"  type="submit">Submit</button>
+               </div> 
+               
+               
+<table class="container  mt-5 m-auto" id="table">
+    <tr class="back2"><td><h3>Index</h3></td><td><h3>Site name</h3></td><td><h3>Visit</h3></td><td><h3>Delet</h3></td></tr>
+    
+    <!-- <tr class="mt-3"><td><h5>Index</h5></td><td><h5>Site name</h5></td><td class="ps-4"><a class="back3" href="about.html" target="_blank"><i class="fa-solid fa-eye"></i></a></td><td class="ps-4"> <i class="fa-solid fa-trash"></i></td></tr> -->
+
+</table>
+
+
+
+
+
+
+   </div>
+
+    </div>
+    <dialog id="urlDialog">
+        <h3>URL Validation Rules</h3>
+        <div class="dialog-content">
+            <p><strong>A valid URL must:</strong></p>
+            <ul>
+                <li>Start with <strong>http://</strong> or <strong>https://</strong></li>
+                <li>Contain a valid domain name (e.g., <strong>example.com</strong>)</li>
+                <li>Optionally include a path or subdirectory (e.g., <strong>/path</strong>)</li>
+                <li>Can include query parameters (e.g., <strong>?id=123&ref=promo</strong>)</li>
+                <li>Cannot contain spaces</li>
+                <li>Use valid characters like <strong>letters</strong>, <strong>numbers</strong>, <strong>hyphens</strong>, and <strong>dots</strong></li>
+            </ul>
+        </div>
+        <button id="closeDialog">Got it!</button>
+    </dialog>
+    <script src="js/index.js"></script>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

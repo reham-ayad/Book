@@ -1,0 +1,191 @@
+.contant{
+    background-color: rgb(245, 161, 177) ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back1{
+    background-color: rgb(3, 3, 80) ;
+    color: rgb(3, 3, 80) ;
+    
+}
+h2::after{
+    content: "";
+    animation-name: word;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes word{
+    0%{
+        content:"";
+    }
+    2%{
+        content:"B";
+    }
+    4%{
+        content:"Bo";
+    }
+    6%{
+        content:"Boo";
+    }
+    6%{
+        content:"Book";
+    }
+    8%{
+        content:"Book m";
+    }
+    10%{
+        content:"Book ma";
+    }
+    12%{
+        content:"Book mar";
+    }
+    14%{
+        content:"Book mark";
+    }
+    16%{
+        content:"Book mark";
+    }
+    18%{
+        content:"Book mark y";
+    }
+    20%{
+        content:"Book mark yo";
+    }
+    22%{
+        content:"Book mark you";
+    }
+    24%{
+        content:"Book mark your";
+    }
+    26%{
+        content:"Book mark your";
+    }
+    28%{
+        content:"Book mark your ";
+    }
+    30%{
+        content:"Book mark your s";
+    }
+    32%{
+        content:"Book mark your si";
+    }
+    34%{
+        content:"Book mark your sit";
+    }
+    36%{
+        content:"Book mark your site";
+    }
+    38%{
+        content:"Book mark your site";
+    }
+    48%{
+        content:"Book mark your sites";
+    }
+    56%{
+        content:"Book mark your sites";
+    }
+    58%{
+        content:"Book mark your site";
+    }
+    60%{
+        content:"Book mark your site";
+    }
+    62%{
+        content:"Book mark your sit";
+    }
+    64%{
+        content:"Book mark your si";
+    }
+    66%{
+        content:"Book mark your s";
+    }
+    68%{
+        content:"Book mark your";
+    }
+    70%{
+        content:"Book mark you";
+    }
+    72%{
+        content:"Book mark yo";
+    }
+    74%{
+        content:"Book mark y";
+    }
+    76%{
+        content:"Book mark";
+    }
+    78%{
+        content:"Book mar";
+    }
+    80%{
+        content:"Book ma";
+    }
+    82%{
+        content:"Book m";
+    }
+    84%{
+        content:"Book ";
+    }
+    86%{
+        content:"Boo";
+    }
+    88%{
+        content:"Bo";
+    }
+    90%{
+        content:"B";
+    }
+    92%{
+        content:"";
+    }
+
+}
+.back2{
+    background-color: rgb(3, 3, 80) !important ;
+    color:rgb(245, 161, 177) !important ;
+    /* color: rgb(3, 3, 80) ; */
+    transition: .5s;
+    border: none !important;
+
+}
+.bu{
+    transition: .5s;
+}
+.bu .back2:hover{
+    background-color:rgb(2, 2, 46)  ;
+}
+.back3{
+    color:rgb(3, 3, 80)  ;
+}
+.bt{
+    background-color: rgba(240, 248, 255, 0);
+    color:rgb(3, 3, 80)  ;
+    border: none;
+}
+.back4{
+    background-color:rgb(245, 161, 177) !important ;
+    color: rgb(3, 3, 80) ;
+
+}
+dialog {
+    width: 400px;
+    padding: 20px;
+    border: none;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+.dialog-content {
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
